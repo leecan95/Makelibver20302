@@ -685,7 +685,7 @@ void StartDisplayTask(void const * argument)
   for(;;)
   {
 	// 0.5s sẽ chờ để gửi tín hiệu hiển thị
-    osDelay(500);
+    osDelay(12345);
   }
   /* USER CODE END StartDisplayTask */
 }
